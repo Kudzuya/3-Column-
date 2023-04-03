@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: hsl(0, 0%, 95%)
+}
+svg{
+    padding-top: 15%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+h1{
+    padding-top: 15%;
+    padding-bottom: 25%;
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    line-height: 1.8;
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: 600px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sedans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(31, 77%, 52%);
+    width: 320px;
+    height: 600px;
+    border-radius: 15px 0px 0px 15px;
+}
+.text{
+    padding-left: 15%;
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suvs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(184, 100%, 22%);
+    width: 320px;
+    height: 600px;
+}
+.luxury{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(179, 100%, 13%);
+    width: 320px;
+    height: 600px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.orange{
+    width: 180px;
+    height: 50px;
+    border-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+}
+.orange:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+.cyan{
+    width: 180px;
+    height: 50px;
+    border-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}
+.cyan:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+.dark{
+    width: 180px;
+    height: 50px;
+    border-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+}
+.dark:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+/* My info */
+.kudzuya{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    color: hsl(179, 100%, 13%);
+    font-size: 20px;
+}
+
+.kudzuya a {
+    color: hsl(31, 100%, 50%);
+    font-size: 20px;
+    transition: 0.5;
+}
+
+.kudzuya a:hover {
+    text-decoration: underline;
+}
+a:link {
+    text-decoration: none;
+}
+/* My info ends*/
+
+
+/* mobile */
+@media screen and (max-width: 1000px)
+{
+main {
+    padding-top: 0px;
+    height: 100%;
+    width: 100%;
+    display: block;
+    }
+.card{
+    width: 100%;
+    display: block;
+    gap: 0;
+    border-radius: 3% 3% 3% 3%;
+    }
+.sedans{
+    width: 100%;
+    display: block;
+    border-radius: 3% 3% 0% 0%;
+}
+.suvs{
+    width: 100%;
+    display: block;
+}
+.luxury{
+    width: 100%;
+    display: block;
+    border-radius: 0% 0% 3% 3%;
+}
+    .kudzuya{
+        position: relative;
+        top: 1300px;
+        bottom: 0;
+        width: 100%;
+    }
+}
